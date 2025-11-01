@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { WelcomeScreen } from "./components/welcomescreen"; // ensure correct case
+
+import WelcomeScreen from "./components/welcomescreen";
 
 function App() {
   const [language, setLanguage] = useState("en");

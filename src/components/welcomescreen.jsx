@@ -177,3 +177,6 @@ const WelcomeScreen = ({ onGetStarted, language, onLanguageChange }) => {
     </div>
   );
 };
+
+
+export default WelcomeScreen;
