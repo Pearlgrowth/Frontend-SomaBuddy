@@ -1,17 +1,5 @@
-import { useState } from "react";
+import { Button } from '@chakra-ui/react'
 
-import WelcomeScreen from "./components/welcomescreen";
-
-function App() {
-  const [language, setLanguage] = useState("en");
-
-  return (
-    <WelcomeScreen
-      language={language}
-      onLanguageChange={setLanguage}
-      onGetStarted={() => alert("Get Started Clicked!")}
-    />
-  );
+export default function App() {
+  return <Button colorScheme="teal">It Works 🎉</Button>
 }
-
-export default App;
